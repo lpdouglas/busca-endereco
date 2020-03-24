@@ -1,0 +1,24 @@
+{
+  "name": "busca-endereco",
+  "version": "1.0.0",
+  "description": "Busca endereço através do CEP passado",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpdouglas/busca-endereco.git"
+  },
+  "author": "lpdouglas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lpdouglas/busca-endereco/issues"
+  },
+  "homepage": "https://github.com/lpdouglas/busca-endereco#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0"
+  }
+}
